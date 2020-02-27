@@ -796,3 +796,15 @@ textarea.site-input:hover, textarea.site-input:focus {
 .bullets-tr td ul li{
   padding-left: 0px;
 }
+.outer-skills{
+  display: -webkit-inline-box;
+  width: 100%;
+}
+.skills-left{
+  margin-left: 10%;
+  /* text-align: center; */
+}
+.skills-right{
+  margin-left: 20%;
+  /* text-align: center; */
+}
