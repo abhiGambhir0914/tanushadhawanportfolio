@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.sendFile('about.html',{root: __dirname + '/tanusha' });
+  res.sendFile('index.html',{root: __dirname + '/tanusha' });
 });
 
 app.listen(port, () => console.log(`Server set up at ${port}`));
