@@ -16,7 +16,7 @@ $(function() {
             var message = $('#' + thisForm).find("textarea.textarea").val();
 
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "/send",
                 type: "POST",
                 dataType: 'json',
                 data: {
