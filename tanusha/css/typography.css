@@ -9,10 +9,10 @@
 - Profile:    http://themeforest.net/user/andreysokoltsov
 
 -------------------------------------------------------------------*/
-
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&amp;display=swap");
 /* Preview page styles */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 16px;
   line-height: 1.56; }
 
@@ -149,12 +149,12 @@ h5 {
   line-height: 20px; }
 
 .highcharts-axis-title {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 14px;
   line-height: 20px; }
 
 .highcharts-xaxis-labels text, .highcharts-yaxis-labels text {
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Nunito", sans-serif !important;
   font-size: 14px !important;
   line-height: 20px !important; }
 
@@ -173,7 +173,7 @@ h5 {
   font-family: "Montserrat", sans-serif !important; }
 
 .highchart-title-desc {
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Nunito", sans-serif !important;
   font-size: 14px !important;
   line-height: 20px !important; }
 
