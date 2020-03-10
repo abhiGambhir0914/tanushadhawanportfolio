@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
@@ -40,8 +41,8 @@ app.post('/send', (req,res) => {
           port: 587, 
           secure: false,
           auth: {
-              user: 'abigambhir@gmail.com',
-              pass: 'bc9a96@CODE'
+              user: process.env.EMAIL_TUNNEL,
+              pass: process.env.EMAIL_PASS
           },
           tls:{
             rejectUnauthorized: false
@@ -53,7 +54,7 @@ app.post('/send', (req,res) => {
           // default message fields
 
           // sender info
-          from: 'abigambhir@gmail.com',
+          from: process.env.EMAIL_TUNNEL,
           headers: {
               'X-Laziness-level': 1000 // just an example header, no need to use this
           }
@@ -63,10 +64,10 @@ app.post('/send', (req,res) => {
   // Message object
   let message = {
       // Comma separated list of recipients
-      to: 'abhigambhir97@gmail.com',
-
+      to: process.env.EMAIL_TO,
+      
       // Subject of the message
-      subject: 'Nodemailer is unicode friendly ✔' + Date.now(),
+      subject: 'New Message from your website...',
 
       // plaintext body
       text: 'Hello to myself!',
