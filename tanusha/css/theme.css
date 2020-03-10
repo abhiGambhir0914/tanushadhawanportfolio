@@ -558,7 +558,9 @@ body {
   margin-top: 90px; }
 
 .project-single-first-box {
-  margin-bottom: 30px; }
+  margin-bottom: 30px; 
+  padding-top: 15px;
+}
 
 .project-single-desc {
   opacity: 0.9; }
@@ -807,4 +809,34 @@ textarea.site-input:hover, textarea.site-input:focus {
 .skills-right{
   margin-left: 20%;
   /* text-align: center; */
+}
+.bullet-content-padding-left{
+  padding-left: 20px !important;
+}
+#process_adorn{
+  height: auto;
+  width: 67vw;
+}
+.adorn_charts {
+  height: auto;
+  width: 67vw;
+}
+#adorn-ta-buyer{
+  width: auto;
+    margin-left: calc(50% - 150.5px);
+    height: 1000px;
+}
+.connected-page-btn{
+  padding: 15px 30px;
+}
+.go-to-text{
+  color: #919191;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 10px;
+}
+.go-to-text img{
+  width: 13px;
+    margin-bottom: 3px;
+    height: 13px;
 }
