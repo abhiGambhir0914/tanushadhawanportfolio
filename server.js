@@ -79,6 +79,10 @@ app.post('/send', (req,res) => {
   transporter.sendMail(message, (error, info) => {
       if (error) {
           console.log('Error occurred');
+          console.log(process.env.EMAIL_TUNNEL)
+          console.log(process.env.EMAIL_PASS)
+          console.log(process.env.EMAIL_TO)
+
           return console.log(error.message);
       }
 
