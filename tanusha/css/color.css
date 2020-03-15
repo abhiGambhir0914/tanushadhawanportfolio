@@ -62,9 +62,15 @@ body {
 .btn-theme-blue {
   background: #0575e6; }
 
+
 .btn-theme-blue:hover {
   -webkit-box-shadow: 0 10px 20px 0 rgba(5, 117, 230, 0.2);
   box-shadow: 0 10px 20px 0 rgba(5, 117, 230, 0.2); }
+  
+.btn-theme-red:hover {
+  -webkit-box-shadow: 0 5px 12px 0 rgb(255, 91, 105, 0.4);
+  box-shadow: 0 5px 12px 0 rgb(255, 91, 105, 0.4);
+ }
 
 .btn-theme-blue:active {
   background: #0b65bf;
