@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 
 // http://ttanushadhawan.com/.well-known/acme-challenge/Co7s_UoFa0hIK0nm3L6VQTSX3CW2HELDWwzWqwdMyXM
 app.get('/.well-known/acme-challenge/:content', function(req, res) {
-  res.send('Co7s_UoFa0hIK0nm3L6VQTSX3CW2HELDWwzWqwdMyXM.iyC8arb5uN3JZG_ukrvbhewWUx8frNsssUr3JBXax5Q')
+  res.send('hqlzanQuvCitfzIaHyBXR3EQRr304kuVCMfYnnJo3tk.iyC8arb5uN3JZG_ukrvbhewWUx8frNsssUr3JBXax5Q')
 })
 
 app.post('/send', (req,res) => {
