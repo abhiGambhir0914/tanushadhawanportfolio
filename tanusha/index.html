@@ -183,8 +183,10 @@
                     <div class="projects-filter">
                         <ul class="list-inline">
                             <li class="active" data-filter="*">All projects</li>
-                            <li data-filter=".ux-apps">User Experience</li>
-                            <li data-filter=".ui-apps">User Interface</li>
+                            <li class="web-category" data-filter=".ux-apps">User Experience</li>
+                            <li class="web-category" data-filter=".ui-apps">User Interface</li>
+                            <li class="mobile-category hidden" data-filter=".ux-apps">UX</li>
+                            <li class="mobile-category hidden" data-filter=".ui-apps">UI</li>
                         </ul>
                     </div>
                 </div>
@@ -662,6 +664,15 @@
 
 <!--THEME-->
 <script src="js/theme.js"></script>
+
+<script>
+    if($(window).width() < 480)
+    {
+       $('.web-category').hide()     
+       $('.mobile-category').removeClass('hidden')
+    }
+
+</script>
 
 </body>
 

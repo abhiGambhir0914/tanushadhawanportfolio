@@ -995,4 +995,8 @@ textarea.site-input:hover, textarea.site-input:focus {
   border-radius: 20px;
   opacity: 0.3;
 }
+
+.hidden{
+  display: none;
+}
 /* Persona UI <<ends>> */
