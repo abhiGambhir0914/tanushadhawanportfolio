@@ -18,6 +18,11 @@ app.get('/', (req, res) => {
   res.sendFile('index.html',{root: __dirname + '/tanusha' });
 });
 
+// http://ttanushadhawan.com/.well-known/acme-challenge/Co7s_UoFa0hIK0nm3L6VQTSX3CW2HELDWwzWqwdMyXM
+app.get('/.well-known/acme-challenge/:content', function(req, res) {
+  res.send('Co7s_UoFa0hIK0nm3L6VQTSX3CW2HELDWwzWqwdMyXM.iyC8arb5uN3JZG_ukrvbhewWUx8frNsssUr3JBXax5Q')
+})
+
 app.post('/send', (req,res) => {
   console.log(req.body)
 
