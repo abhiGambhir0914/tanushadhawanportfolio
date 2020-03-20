@@ -19,8 +19,8 @@ app.get('/', (req, res) => {
 });
 
 // http://ttanushadhawan.com/.well-known/acme-challenge/Co7s_UoFa0hIK0nm3L6VQTSX3CW2HELDWwzWqwdMyXM
-app.get('/.well-known/acme-challenge/:content', function(req, res) {
-  res.send('hqlzanQuvCitfzIaHyBXR3EQRr304kuVCMfYnnJo3tk.iyC8arb5uN3JZG_ukrvbhewWUx8frNsssUr3JBXax5Q')
+app.get('/.well-known/acme-challenge/OkFFBWvtRU45-pGmiwUCOKLU-9-lNbRiltXiMxg1dBU', function(req, res) {
+  res.send('OkFFBWvtRU45-pGmiwUCOKLU-9-lNbRiltXiMxg1dBU.iyC8arb5uN3JZG_ukrvbhewWUx8frNsssUr3JBXax5Q')
 })
 
 app.post('/send', (req,res) => {
