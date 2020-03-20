@@ -305,8 +305,8 @@ body {
   width: 100px;
   height: 100px;
   overflow: hidden;
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
   margin-bottom: 20px; }
 
 .main-avatar img {
@@ -989,7 +989,7 @@ textarea.site-input:hover, textarea.site-input:focus {
   top: 0;
   left: 0;
   width: 100%;
-  background-image: linear-gradient(147deg, #ff962b 0%, #ff5b69 74%);
+  /* background-image: linear-gradient(147deg, #ff962b 0%, #ff5b69 74%); */
   border-radius: 20px;
   height: 100%;
   border-radius: 20px;
