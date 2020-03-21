@@ -1000,3 +1000,32 @@ textarea.site-input:hover, textarea.site-input:focus {
   display: none;
 }
 /* Persona UI <<ends>> */
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .outer-skills{
+    display: inline;
+    text-align: center;
+  }
+  .skills-left{
+    margin-left: 0%;
+      text-align: center;
+  }
+  .skills-right {
+    margin-left: 0%;
+    text-align: center;
+  }
+  .connected-page-btn-2 {
+    padding: 5px 15px;
+    font-size: 10px;
+  }
+  .project-single-first-box{
+    border-top: 1px solid #e3e3e3 !important;
+  }
+  #process_adorn {
+    height: auto;
+    width: 120vw;
+  }
+
+}
