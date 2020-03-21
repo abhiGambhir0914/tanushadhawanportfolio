@@ -1025,7 +1025,11 @@ textarea.site-input:hover, textarea.site-input:focus {
   }
   #process_adorn {
     height: auto;
-    width: 120vw;
+    width: 130vw;
+  }
+  .adorn_charts {
+    height: auto;
+    width: 150vw;
   }
 
 }
